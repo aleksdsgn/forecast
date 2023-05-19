@@ -1,4 +1,5 @@
 <script setup>
+import { API_KEY, BASE_URL } from './constants'
 import WeatherSummary from './components/WeatherSummary.vue'
 import Highlights from './components/Highlights.vue'
 </script>
@@ -22,7 +23,7 @@ import Highlights from './components/Highlights.vue'
             <section class="section section-right">
               
               <Highlights />
-              
+
             </section> 
           </div>
           <div class="sections">
